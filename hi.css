@@ -1,0 +1,134 @@
+.hello {
+    text-align: center;
+}
+
+.picture {
+  align-items: center;
+  width: 50px; /* Adjust the size as needed */
+  height: 50px; /* Adjust the size as needed */
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px; /* Adjust the margin-top as needed */
+  margin-bottom: 10px;
+}
+
+.space {
+margin: 10px; /* Adds space before and after */
+margin-top: 10px; /* Adds space only before */
+margin-bottom: 40px; /* Adds space only after */
+}
+.space1 {
+  margin: 10px; /* Adds space before and after */
+  margin-top: 10px; /* Adds space only before */
+  margin-bottom: 10px; /* Adds space only after */
+  }
+.border-box {
+  display: inline-block;
+  border: 1px solid #000;
+  background-color: rgb(111, 182, 245);
+  color: black;
+  font-size: 12px;
+  padding: 5px;
+}
+  .centered {
+   
+    display: inline;
+    margin-top: 0%;
+    margin-bottom: 1px; 
+    font-size: 25px; 
+    vertical-align: middle;
+  }
+  .centered-paragraph {
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 1px; 
+    font-size: 12px; 
+  }
+  .ok {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0%;
+    margin-bottom: 1px; 
+    font-size: 20px; 
+  }
+  .centro {
+  content: '';
+  display: block;
+  font-weight: bold;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  width: 100%; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the lines */
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 1px;
+  font-size: 17px;
+}
+  .bhai {
+    content: '';
+  display: block;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  width: 100%; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the lines */
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 40px; 
+    font-size: 20px; 
+  }
+  .paragraph {
+    text-align: left;
+    margin-top: 0%;
+    margin-bottom: 1px; 
+    font-size: 15px; 
+  }
+  .hie{
+    font-weight: bold;
+  }
+.view {
+  justify-content: space-between;
+  padding: 20px;
+  align-items: end;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.signature {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+#preview1 {
+  width: 40px; /* Fixed width */
+    height: 60px; /* Fixed height */
+    margin-top: 10px;
+    border: 1px solid #000;
+}
+#preview2{
+  width: 180px; /* Fixed width */
+  height: 50px; /* Fixed height */
+  margin-top: 10px;
+  border: 1px solid #000;
+}
+
+.photo {
+  box-sizing: border-box;
+    position: absolute; /* Change to relative for proper positioning */
+    padding: 10px;
+    top: 20px;
+    right: 20px;
+    border: 2px solid #000000;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.photo input,
+.photo #preview1 {
+    width: 100%; /* Take up 100% of the .photo div */
+}
+
+/* Optional: Center the text vertically in the .signature div */
+.signature {
+    display: flex;
+    align-items: center;
+}
