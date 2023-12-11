@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ADMISSION FORM</title>
+  <link rel="stylesheet" href="hi.css">
+  <script type="text/javascript" src="hey.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js"></script>
+  </head>
+<body>
+    <div class="photo"><div id="preview1">
+    <input type="file" id="fileInput1" accept="image/*" onchange="previewFile('preview1')">
+  </div>
+  </div>
+  <img class="picture" src=".\ab\a.jpg" alt="Picture">
+ 
+  <div class="hello">
+    <span class="border-box"><p class="centered">NETAJI COMMERCIAL INSTITUTE</p></span>
+  </div>
+  <p class="ok">ESTD. 1985</p>
+  <div id="identity">
+    <p class="centered-paragraph">DESHBANDHU ROAD, OPP. PNB. SILCHAR</p>
+      </div>
+      <div class="space">
+        <p class="centro">ADMISSION FORM</p>
+      </div>
+    
+      <div class="space1">
+        <div class="candidate-name">
+      <span>CANDIDATE'S NAME:</span>
+      <input type="text" name="candidate-name" style="width: 510px">
+    </div></div>
+    <div class="space1"><div class="father-name">
+      <span>FATHER'S/HUSBAND'S NAME:</span>
+      <input type="text" name="father-name" style="width: 450px">
+    </div></div>
+    <div class="space1"><div class="sex">
+      <span>SEX:</span>
+      <input type="checkbox" id="male" name="sex" value="male">
+    <label for="male">Male</label>
+    <input type="checkbox" id="female" name="sex" value="female">
+    <label for="female">Female</label>
+    <input type="checkbox" id="others" name="sex" value="others">
+    <label for="others">Others</label>
+    </div></div>
+    <div class="space1"><div class="present-address">
+      <span>PRESENT ADDRESS:</span>
+      <input type="text" name="present-address" style="width: 520px">
+    </div></div>
+    <div class="space1"> <div class="permanant-address">
+      <span>PERMANENT ADDRESS:</span>
+      <input type="text" name="permanant-address" style="width: 490px">
+    </div></div>
+    <div class="space1"> <div class="birth-date">
+      <span>DATE OF BIRTH:</span>
+      <input type="date" name="birth-date">
+    </div></div>
+    <div class="space1"><div class="education">
+      <span>EDUCATION QUALIFICATION:</span>
+      <input type="text" name="education" style="width: 445px">
+    </div></div>
+    <div class="space1"><div class="course">
+      <span>COURSE:</span>
+      <input type="text" name="course" style="width: 600px">
+    </div></div>
+    <div class="space"><div class="phone-number">
+      <span>PHONE/MOBILE NUMBER:</span>
+      <input type="number" name="phone-number" style="width: 470px">
+        </div></div>
+ <div class="space1">
+    <div class="date">
+    <span>DATE:</span>
+    <input type="date" name="date">
+  </div>
+</div>
+  <div class="space1"><div class="place-name">
+    <span>PLACE:</span>
+    <input type="text" name="place-name">
+</div></div></div>
+
+
+  <p class="bhai">CONTACT - 9101676661</p></div>
+
+  <div class="hie"><input type="checkbox" id="agree" name="agree" value="agree">I agree</input></div>
+    <p class="paragraph">The information given above is true to the best of my knowledge and belief. I also do agree to abide 
+    by the rules and regulations of the institute authorities including the amendment made by the authority time to time.</p>
+
+    <div class="view"><div id="preview2">
+         <input type="file" id="fileInput2" accept="image/*" onchange="previewFile('preview2')">
+        </div>
+        <div class="signature">Full signature of the candidate</div>
+        </div> 
+
+    <p class="centered-paragraph"><button onclick="printPage()">Print</button>
+    <button onclick="savePage()">Save</button></p>
+    
+
+</body>
+</html>
